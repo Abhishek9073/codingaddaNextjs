@@ -83,7 +83,7 @@ if (success){
 
       <div className="bg-slate-200 flex flex-col">
 
-      {error &&  error.map((e,index) => (
+      {error &&  error.map((e,id) => (
         <div className={`${success ? "text-green-700" : "text-red-600"} px-5 py-2`}>
       {e}
       </div>
