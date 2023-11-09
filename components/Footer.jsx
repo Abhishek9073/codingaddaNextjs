@@ -159,6 +159,7 @@ const Footer = () => {
     <Image className=' h-76 rounded-2xl max-sm:w-56'
       src={map}
       width={450}
+      alt='map'
    
     
     />

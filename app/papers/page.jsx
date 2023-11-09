@@ -28,6 +28,7 @@ const page = () => {
 <div className='flex justify-center py-3 my-3 text-center items-center align-bottom text-2xl'>
 <Image className="mx-32 max-sm:w-1/2 w-1/3"
   src={cbse}
+  alt='cbse'
  
 />
 
@@ -64,6 +65,7 @@ const page = () => {
   <div className=' py-3 my-3 text-center flex justify-center items-center align-bottom text-2xl'>
 <Image className="mx-32 max-sm:w-1/2 w-1/3 text-center"
   src={icse}
+  alt='icse'
 
 />
 
@@ -95,6 +97,7 @@ const page = () => {
   <div className=' pt-3   text-center flex justify-center items-center align-bottom text-2xl'>
 <Image className='mb-2 mx-32 w-1/2'
   src={jac}
+  alt='jac'
  
 />
 
@@ -123,6 +126,7 @@ const page = () => {
   <div className=' py-3 flex justify-center  text-center items-center align-bottom text-2xl'>
 <Image className="mx-32 w-1/2"
   src={ap}
+  alt='ap'
 
 />
 
